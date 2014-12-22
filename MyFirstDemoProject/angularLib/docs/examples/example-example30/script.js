@@ -2,14 +2,14 @@
     return {
       require: 'ngModel',
       link: function(scope, elm, attrs, ctrl) {
-        // view -> model
+        // Partials -> model
         elm.on('blur', function() {
           scope.$apply(function() {
             ctrl.$setViewValue(elm.html());
           });
         });
 
-        // model -> view
+        // model -> Partials
         ctrl.$render = function() {
           elm.html(ctrl.$viewValue);
         };

@@ -1,43 +1,52 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
+<!doctype html>
+<html lang="eng" data-ng-app="demoApp">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>My AngularJS App</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="bower_components/html5-boilerplate/css/normalize.css">
-  <link rel="stylesheet" href="bower_components/html5-boilerplate/css/main.css">
-  <link rel="stylesheet" href="app.css">
-  <script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
+<meta charset="UTF-8">
+    <title>An Intro to Angular.JS</title>
 </head>
 <body>
-  <ul class="menu">
-    <li><a href="#/view1">view1</a></li>
-    <li><a href="#/view2">view2</a></li>
-  </ul>
+    <div>
+        <!-- Placeholder for views -->
+        <div data-ng-view></div>
+    </div>
 
-  <!--[if lt IE 7]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-  <![endif]-->
+    <script src="../angularLib/angular.js"></script>
+    <script src="../angularLib/angular-route.js"></script>
 
-  <div ng-view></div>
 
-  <div>Angular seed app: v<span app-version></span></div>
+    <script>
+        var demoApp = angular.module('demoApp', ['ngRoute']);
+        
+        demoApp.config(function ($routeProvider) {
+            $routeProvider
+                    .when('/view1',
+                        {
+                            controller: 'SimpleController',
+                            templateUrl: 'Partials/View1.html'
+                        })
+                    .when('/view2',
+                        {
+                            controller: 'SimpleController',
+                            templateUrl: 'Partials/View2.html'
+                        })
+                    .otherwise({redirectTo:'/view1'});
+        });
 
-  <!-- In production use:
-  <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
-  -->
-  <script src="bower_components/angular/angular.js"></script>
-  <script src="bower_components/angular-route/angular-route.js"></script>
-  <script src="app.js"></script>
-  <script src="view1/view1.js"></script>
-  <script src="view2/view2.js"></script>
-  <script src="components/version/version.js"></script>
-  <script src="components/version/version-directive.js"></script>
-  <script src="components/version/interpolate-filter.js"></script>
+        demoApp.controller('SimpleController', function ($scope) {
+            $scope.customers = [
+                {name: 'Muzafar Test1', city: 'London'},
+                {name: 'Salah Test2', city: 'Khartoum'},
+                {name: 'Mahgoub Test3', city: 'Heaven'}
+            ];
+
+            $scope.addCustomer = function () {
+                $scope.customers.push({
+                            name: $scope.newCustomer.name,
+                            city: $scope.newCustomer.city
+                        });
+            };
+        });
+
+    </script>
 </body>
 </html>

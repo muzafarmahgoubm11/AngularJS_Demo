@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("examples/example-example78/index.html");
+    browser.get("examples/example-example78/View1.html");
   });
   
   it('should show correct pluralized string', function() {

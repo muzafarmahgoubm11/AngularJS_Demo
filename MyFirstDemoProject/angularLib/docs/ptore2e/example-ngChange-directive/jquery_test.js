@@ -8,7 +8,7 @@ describe("", function() {
   var counter = element(by.binding('counter'));
   var debug = element(by.binding('confirmed'));
 
-  it('should evaluate the expression if changing from view', function() {
+  it('should evaluate the expression if changing from Partials', function() {
     expect(counter.getText()).toContain('0');
 
     element(by.id('ng-change-example1')).click();

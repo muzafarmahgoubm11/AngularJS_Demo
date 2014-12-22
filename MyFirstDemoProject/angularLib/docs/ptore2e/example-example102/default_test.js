@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("examples/example-example102/index.html");
+    browser.get("examples/example-example102/View1.html");
   });
   
   it('should linkify the snippet with urls', function() {

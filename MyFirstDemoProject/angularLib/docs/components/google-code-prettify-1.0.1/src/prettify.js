@@ -1472,7 +1472,7 @@ var REGEXP_PRECEDER_PATTERN = '(?:^^\\.?|[+-]|[!=]=?=?|\\#|%=?|&&?=?|\\(|\\*=?|[
             // as passed to PR.registerLangHandler.
             // HTML5 recommends that a language be specified using "language-"
             // as the prefix instead.  Google Code Prettify supports both.
-            // http://dev.w3.org/html5/spec-author-view/the-code-element.html
+            // http://dev.w3.org/html5/spec-author-Partials/the-code-element.html
             var langExtension = className.match(langExtensionRe);
             // Support <pre class="prettyprint"><code class="language-c">
             var wrapper;

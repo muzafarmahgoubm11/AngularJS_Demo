@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("examples/example-multi-bootstrap/index.html");
+    browser.get("examples/example-multi-bootstrap/View1.html");
   });
   
 it('should only insert one table cell for each item in $scope.fillings', function() {

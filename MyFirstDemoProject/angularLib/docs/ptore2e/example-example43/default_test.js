@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("examples/example-example43/index.html");
+    browser.get("examples/example-example43/View1.html");
   });
   
   it('should execute ng-click but not reload when href without value', function() {

@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("examples/example-example92/index.html");
+    browser.get("examples/example-example92/View1.html");
   });
   
   it('should jsonify filtered objects', function() {

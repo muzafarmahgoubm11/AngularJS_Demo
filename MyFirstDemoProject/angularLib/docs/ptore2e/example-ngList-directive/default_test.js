@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("examples/example-ngList-directive/index.html");
+    browser.get("examples/example-ngList-directive/View1.html");
   });
   
   var listInput = element(by.model('names'));

@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("examples/example-example93/index.html");
+    browser.get("examples/example-example93/View1.html");
   });
   
   var numLimitInput = element(by.model('numLimit'));

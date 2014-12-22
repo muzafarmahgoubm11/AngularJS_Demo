@@ -272,7 +272,7 @@ function $RouteProvider(){
      *
      * <example name="$route-service" module="ngRouteExample"
      *          deps="angular-route.js" fixBase="true">
-     *   <file name="index.html">
+     *   <file name="View1.html">
      *     <div ng-controller="MainController">
      *       Choose:
      *       <a href="Book/Moby">Moby</a> |
@@ -281,7 +281,7 @@ function $RouteProvider(){
      *       <a href="Book/Gatsby/ch/4?key=value">Gatsby: Ch4</a> |
      *       <a href="Book/Scarlet">Scarlet Letter</a><br/>
      *
-     *       <div ng-view></div>
+     *       <div ng-Partials></div>
      *
      *       <hr />
      *
@@ -351,14 +351,14 @@ function $RouteProvider(){
      *   <file name="protractor.js" type="protractor">
      *     it('should load and compile correct template', function() {
      *       element(by.linkText('Moby: Ch1')).click();
-     *       var content = element(by.css('[ng-view]')).getText();
+     *       var content = element(by.css('[ng-Partials]')).getText();
      *       expect(content).toMatch(/controller\: ChapterController/);
      *       expect(content).toMatch(/Book Id\: Moby/);
      *       expect(content).toMatch(/Chapter Id\: 1/);
      *
      *       element(by.partialLinkText('Scarlet')).click();
      *
-     *       content = element(by.css('[ng-view]')).getText();
+     *       content = element(by.css('[ng-Partials]')).getText();
      *       expect(content).toMatch(/controller\: BookController/);
      *       expect(content).toMatch(/Book Id\: Scarlet/);
      *     });
@@ -373,7 +373,7 @@ function $RouteProvider(){
      * @description
      * Broadcasted before a route change. At this  point the route services starts
      * resolving all of the dependencies needed for the route change to occur.
-     * Typically this involves fetching the view template as well as any dependencies
+     * Typically this involves fetching the Partials template as well as any dependencies
      * defined in `resolve` route property. Once  all of the dependencies are resolved
      * `$routeChangeSuccess` is fired.
      *
@@ -389,7 +389,7 @@ function $RouteProvider(){
      * @description
      * Broadcasted after a route dependencies are resolved.
      * {@link ngRoute.directive:ngView ngView} listens for the directive
-     * to instantiate the controller and render the view.
+     * to instantiate the controller and render the Partials.
      *
      * @param {Object} angularEvent Synthetic event object.
      * @param {Route} current Current route information.
@@ -623,7 +623,7 @@ ngRouteModule.provider('$routeParams', $RouteParamsProvider);
  * @example
  * ```js
  *  // Given:
- *  // URL: http://server.com/index.html#/Chapter/1/Section/2?search=moby
+ *  // URL: http://server.com/View1.html#/Chapter/1/Section/2?search=moby
  *  // Route: /Chapter/:chapterId/Section/:sectionId
  *  //
  *  // Then
@@ -646,8 +646,8 @@ ngRouteModule.directive('ngView', ngViewFillContentFactory);
  * @description
  * # Overview
  * `ngView` is a directive that complements the {@link ngRoute.$route $route} service by
- * including the rendered template of the current route into the main layout (`index.html`) file.
- * Every time the current route changes, the included view changes with it according to the
+ * including the rendered template of the current route into the main layout (`View1.html`) file.
+ * Every time the current route changes, the included Partials changes with it according to the
  * configuration of the `$route` service.
  *
  * Requires the {@link ngRoute `ngRoute`} module to be installed.
@@ -660,10 +660,10 @@ ngRouteModule.directive('ngView', ngViewFillContentFactory);
  *
  * @scope
  * @priority 400
- * @param {string=} onload Expression to evaluate whenever the view updates.
+ * @param {string=} onload Expression to evaluate whenever the Partials updates.
  *
  * @param {string=} autoscroll Whether `ngView` should call {@link ng.$anchorScroll
- *                  $anchorScroll} to scroll the viewport after the view is updated.
+ *                  $anchorScroll} to scroll the viewport after the Partials is updated.
  *
  *                  - If the attribute is not set, disable scrolling.
  *                  - If the attribute is set without value, enable scrolling.
@@ -673,7 +673,7 @@ ngRouteModule.directive('ngView', ngViewFillContentFactory);
     <example name="ngView-directive" module="ngViewExample"
              deps="angular-route.js;angular-animate.js"
              animations="true" fixBase="true">
-      <file name="index.html">
+      <file name="View1.html">
         <div ng-controller="MainCtrl as main">
           Choose:
           <a href="Book/Moby">Moby</a> |
@@ -682,8 +682,8 @@ ngRouteModule.directive('ngView', ngViewFillContentFactory);
           <a href="Book/Gatsby/ch/4?key=value">Gatsby: Ch4</a> |
           <a href="Book/Scarlet">Scarlet Letter</a><br/>
 
-          <div class="view-animate-container">
-            <div ng-view class="view-animate"></div>
+          <div class="Partials-animate-container">
+            <div ng-Partials class="Partials-animate"></div>
           </div>
           <hr />
 
@@ -711,7 +711,7 @@ ngRouteModule.directive('ngView', ngViewFillContentFactory);
       </file>
 
       <file name="animations.css">
-        .view-animate-container {
+        .Partials-animate-container {
           position:relative;
           height:100px!important;
           position:relative;
@@ -721,11 +721,11 @@ ngRouteModule.directive('ngView', ngViewFillContentFactory);
           overflow:hidden;
         }
 
-        .view-animate {
+        .Partials-animate {
           padding:10px;
         }
 
-        .view-animate.ng-enter, .view-animate.ng-leave {
+        .Partials-animate.ng-enter, .Partials-animate.ng-leave {
           -webkit-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.5s;
           transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.5s;
 
@@ -741,13 +741,13 @@ ngRouteModule.directive('ngView', ngViewFillContentFactory);
           padding:10px;
         }
 
-        .view-animate.ng-enter {
+        .Partials-animate.ng-enter {
           left:100%;
         }
-        .view-animate.ng-enter.ng-enter-active {
+        .Partials-animate.ng-enter.ng-enter-active {
           left:0;
         }
-        .view-animate.ng-leave.ng-leave-active {
+        .Partials-animate.ng-leave.ng-leave-active {
           left:-100%;
         }
       </file>
@@ -790,14 +790,14 @@ ngRouteModule.directive('ngView', ngViewFillContentFactory);
       <file name="protractor.js" type="protractor">
         it('should load and compile correct template', function() {
           element(by.linkText('Moby: Ch1')).click();
-          var content = element(by.css('[ng-view]')).getText();
+          var content = element(by.css('[ng-Partials]')).getText();
           expect(content).toMatch(/controller\: ChapterCtrl/);
           expect(content).toMatch(/Book Id\: Moby/);
           expect(content).toMatch(/Chapter Id\: 1/);
 
           element(by.partialLinkText('Scarlet')).click();
 
-          content = element(by.css('[ng-view]')).getText();
+          content = element(by.css('[ng-Partials]')).getText();
           expect(content).toMatch(/controller\: BookCtrl/);
           expect(content).toMatch(/Book Id\: Scarlet/);
         });
@@ -856,9 +856,9 @@ function ngViewFactory(   $route,   $anchorScroll,   $animate) {
             var newScope = scope.$new();
             var current = $route.current;
 
-            // Note: This will also link all children of ng-view that were contained in the original
+            // Note: This will also link all children of ng-Partials that were contained in the original
             // html. If that content contains controllers, ... they could pollute/change the scope.
-            // However, using ng-view on an element with additional content does not make sense...
+            // However, using ng-Partials on an element with additional content does not make sense...
             // Note: We can't remove them in the cloneAttchFn of $transclude as that
             // function is called before linking the content, which would apply child
             // directives to non existing elements.

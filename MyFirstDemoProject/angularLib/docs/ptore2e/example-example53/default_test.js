@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("examples/example-example53/index.html");
+    browser.get("examples/example-example53/View1.html");
   });
   
   it('should check ng-bind-html', function() {

@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("examples/example-example81/index.html");
+    browser.get("examples/example-example81/View1.html");
   });
   
   var thumbsUp = element(by.css('span.glyphicon-thumbs-up'));

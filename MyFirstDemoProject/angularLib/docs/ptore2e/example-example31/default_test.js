@@ -3,7 +3,7 @@ describe("", function() {
   beforeEach(function() {
     rootEl = browser.rootEl;
     browser.rootEl = '[ng-app]';
-    browser.get("examples/example-example31/index.html");
+    browser.get("examples/example-example31/View1.html");
   });
   afterEach(function() { browser.rootEl = rootEl; });
   it('should add Hello to the name', function() {

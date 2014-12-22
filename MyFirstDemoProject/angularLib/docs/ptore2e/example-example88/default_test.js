@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("examples/example-example88/index.html");
+    browser.get("examples/example-example88/View1.html");
   });
   
   var expectFriendNames = function(expectedNames, key) {

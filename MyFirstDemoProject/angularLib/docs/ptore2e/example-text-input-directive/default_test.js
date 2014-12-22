@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("examples/example-text-input-directive/index.html");
+    browser.get("examples/example-text-input-directive/View1.html");
   });
   
   var text = element(by.binding('text'));

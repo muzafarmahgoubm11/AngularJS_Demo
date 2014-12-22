@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("examples/example-example103/index.html");
+    browser.get("examples/example-example103/View1.html");
   });
   
   it('should sanitize the html snippet by default', function() {

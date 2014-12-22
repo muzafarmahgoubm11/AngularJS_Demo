@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("examples/example-example70/index.html");
+    browser.get("examples/example-example70/View1.html");
   });
   
   it('should check ng-submit', function() {

@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("examples/example-example55/index.html");
+    browser.get("examples/example-example55/View1.html");
   });
   
   it('should check ng-class', function() {

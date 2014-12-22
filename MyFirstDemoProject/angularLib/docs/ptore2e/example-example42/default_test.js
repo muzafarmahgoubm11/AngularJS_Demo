@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("examples/example-example42/index.html");
+    browser.get("examples/example-example42/View1.html");
   });
   
   it('should auto compile', function() {

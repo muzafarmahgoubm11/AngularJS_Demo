@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("examples/example-ngValue-directive/index.html");
+    browser.get("examples/example-ngValue-directive/View1.html");
   });
   
   var favorite = element(by.binding('my.favorite'));

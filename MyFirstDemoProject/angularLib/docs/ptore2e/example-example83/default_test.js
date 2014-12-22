@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("examples/example-example83/index.html");
+    browser.get("examples/example-example83/View1.html");
   });
   
   var switchElem = element(by.css('[ng-switch]'));

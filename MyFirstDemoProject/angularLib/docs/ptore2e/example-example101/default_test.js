@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("examples/example-example101/index.html");
+    browser.get("examples/example-example101/View1.html");
   });
   
  it('should display the greeting in the input box', function() {

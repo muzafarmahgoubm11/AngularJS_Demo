@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("examples/example-example97/index.html");
+    browser.get("examples/example-example97/View1.html");
   });
   
 it('should interpolate binding with custom symbols', function() {

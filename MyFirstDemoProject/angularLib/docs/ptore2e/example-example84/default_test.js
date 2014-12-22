@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("examples/example-example84/index.html");
+    browser.get("examples/example-example84/View1.html");
   });
   
    it('should have transcluded', function() {

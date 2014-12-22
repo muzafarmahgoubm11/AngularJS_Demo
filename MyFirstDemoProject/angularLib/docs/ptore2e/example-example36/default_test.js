@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("examples/example-example36/index.html");
+    browser.get("examples/example-example36/View1.html");
   });
   
   it('should test service', function() {

@@ -113,8 +113,8 @@
  * }
  * </style>
  *
- * <div class="view-container">
- *   <div ng-view class="reveal-animation"></div>
+ * <div class="Partials-container">
+ *   <div ng-Partials class="reveal-animation"></div>
  * </div>
  * ```
  *
@@ -136,8 +136,8 @@
  * }
  * </style>
  *
- * <div class="view-container">
- *   <div ng-view class="reveal-animation"></div>
+ * <div class="Partials-container">
+ *   <div ng-Partials class="reveal-animation"></div>
  * </div>
  * ```
  *

@@ -1,7 +1,7 @@
  angular.module('html5-mode', ['fake-browser', 'address-bar'])
 
  .constant('initUrl', 'http://www.example.com/base/path?a=b#h')
- .constant('baseHref', '/base/index.html')
+ .constant('baseHref', '/base/View1.html')
  .value('$sniffer', { history: true })
 
  .controller("LocationController", function($scope, $location) {

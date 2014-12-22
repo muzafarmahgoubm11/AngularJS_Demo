@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("examples/example-example89/index.html");
+    browser.get("examples/example-example89/View1.html");
   });
   
   it('should init with 1234.56', function() {

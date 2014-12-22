@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("examples/example-example48/index.html");
+    browser.get("examples/example-example48/View1.html");
   });
   
   it('should toggle open', function() {

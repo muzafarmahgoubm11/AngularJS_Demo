@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("examples/example-example100/index.html");
+    browser.get("examples/example-example100/View1.html");
   });
   
 describe('SCE doc demo', function() {

@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("examples/example-example21/index.html");
+    browser.get("examples/example-example21/View1.html");
   });
   
   it('should allow user expression testing', function() {

@@ -1,7 +1,7 @@
   angular.module('hashbang-mode', ['fake-browser', 'address-bar'])
 
-  .constant('initUrl', 'http://www.example.com/base/index.html#!/path?a=b#h')
-  .constant('baseHref', '/base/index.html')
+  .constant('initUrl', 'http://www.example.com/base/View1.html#!/path?a=b#h')
+  .constant('baseHref', '/base/View1.html')
   .value('$sniffer', { history: false })
 
   .config(function($locationProvider) {

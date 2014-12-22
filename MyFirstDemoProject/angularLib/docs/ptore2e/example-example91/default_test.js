@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("examples/example-example91/index.html");
+    browser.get("examples/example-example91/View1.html");
   });
   
   it('should format date', function() {

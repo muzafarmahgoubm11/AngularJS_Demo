@@ -2,11 +2,11 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("examples/example-location-hashbang-mode/index.html");
+    browser.get("examples/example-location-hashbang-mode/View1.html");
   });
   
   var addressBar = element(by.css("#addressBar")),
-       url = 'http://www.example.com/base/index.html#!/path?a=b#h';
+       url = 'http://www.example.com/base/View1.html#!/path?a=b#h';
 
   it("should show fake browser info on load", function(){
     expect(addressBar.getAttribute('value')).toBe(url);
@@ -25,7 +25,7 @@ describe("", function() {
 
     navigation.get(0).click();
 
-    expect(addressBar.getAttribute('value')).toBe("http://www.example.com/base/index.html#!/first?a=b");
+    expect(addressBar.getAttribute('value')).toBe("http://www.example.com/base/View1.html#!/first?a=b");
 
     expect(element(by.binding('$location.protocol')).getText()).toBe('http');
     expect(element(by.binding('$location.host')).getText()).toBe('www.example.com');
@@ -37,7 +37,7 @@ describe("", function() {
 
     navigation.get(1).click();
 
-    expect(addressBar.getAttribute('value')).toBe("http://www.example.com/base/index.html#!/sec/ond?flag#hash");
+    expect(addressBar.getAttribute('value')).toBe("http://www.example.com/base/View1.html#!/sec/ond?flag#hash");
 
     expect(element(by.binding('$location.protocol')).getText()).toBe('http');
     expect(element(by.binding('$location.host')).getText()).toBe('www.example.com');

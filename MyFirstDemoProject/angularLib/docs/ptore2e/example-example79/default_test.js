@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("examples/example-example79/index.html");
+    browser.get("examples/example-example79/View1.html");
   });
   
 var friends = element.all(by.repeater('friend in friends'));

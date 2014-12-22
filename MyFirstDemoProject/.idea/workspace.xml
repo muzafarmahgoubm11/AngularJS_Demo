@@ -2,8 +2,117 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65729f55-12d5-408e-81c3-152ea50488e0" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\projects\AngularJS_Demo\MyFirstDemoProject\app\angular.js.htm" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/index.html" afterPath="$PROJECT_DIR$/app/view/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Partials/View1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Partials/View2.html" />
+      <change type="DELETED" beforePath="C:\projects\AngularJS_Demo\MyFirstDemoProject\.bowerrc" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\AngularJS_Demo\MyFirstDemoProject\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\AngularJS_Demo\MyFirstDemoProject\.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\AngularJS_Demo\MyFirstDemoProject\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\AngularJS_Demo\MyFirstDemoProject\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\AngularJS_Demo\MyFirstDemoProject\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\AngularJS_Demo\MyFirstDemoProject\app\app.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\AngularJS_Demo\MyFirstDemoProject\app\components\version\interpolate-filter.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\AngularJS_Demo\MyFirstDemoProject\app\components\version\interpolate-filter_test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\AngularJS_Demo\MyFirstDemoProject\app\components\version\version-directive.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\AngularJS_Demo\MyFirstDemoProject\app\components\version\version-directive_test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\AngularJS_Demo\MyFirstDemoProject\app\components\version\version.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\AngularJS_Demo\MyFirstDemoProject\app\components\version\version_test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\AngularJS_Demo\MyFirstDemoProject\app\index-async.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\AngularJS_Demo\MyFirstDemoProject\app\js\angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\AngularJS_Demo\MyFirstDemoProject\app\view\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\AngularJS_Demo\MyFirstDemoProject\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\AngularJS_Demo\MyFirstDemoProject\e2e-tests\protractor.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\AngularJS_Demo\MyFirstDemoProject\e2e-tests\scenarios.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\AngularJS_Demo\MyFirstDemoProject\karma.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\AngularJS_Demo\MyFirstDemoProject\package.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/angular-animate.js" afterPath="$PROJECT_DIR$/angularLib/angular-animate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/angular-resource.js" afterPath="$PROJECT_DIR$/angularLib/angular-resource.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/angular-route.js" afterPath="$PROJECT_DIR$/angularLib/angular-route.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/angular-sanitize.js" afterPath="$PROJECT_DIR$/angularLib/angular-sanitize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/angular-scenario.js" afterPath="$PROJECT_DIR$/angularLib/angular-scenario.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/angular-touch.js" afterPath="$PROJECT_DIR$/angularLib/angular-touch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/angular.js" afterPath="$PROJECT_DIR$/angularLib/angular.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/examples/example-location-hashbang-mode/app.js" afterPath="$PROJECT_DIR$/angularLib/docs/examples/example-location-hashbang-mode/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/examples/example-location-html5-mode/app.js" afterPath="$PROJECT_DIR$/angularLib/docs/examples/example-location-html5-mode/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.js" afterPath="$PROJECT_DIR$/app/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-$route-service/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-$route-service/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-NgModelController/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-NgModelController/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-checkbox-input-directive/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-checkbox-input-directive/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-email-input-directive/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-email-input-directive/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example100/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example100/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example101/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example101/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example102/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example102/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example103/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example103/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example20/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example20/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example21/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example21/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example22/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example22/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example31/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example31/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example32/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example32/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example36/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example36/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example42/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example42/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example43/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example43/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example44/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example44/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example45/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example45/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example46/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example46/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example47/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example47/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example48/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example48/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example49/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example49/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example51/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example51/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example52/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example52/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example53/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example53/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example54/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example54/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example55/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example55/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example56/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example56/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example57/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example57/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example58/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example58/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example59/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example59/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example70/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example70/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example75/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example75/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example76/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example76/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example77/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example77/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example78/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example78/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example79/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example79/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example80/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example80/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example81/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example81/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example82/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example82/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example83/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example83/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example84/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example84/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example85/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example85/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example86/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example86/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example88/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example88/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example89/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example89/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example90/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example90/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example91/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example91/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example92/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example92/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example93/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example93/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example96/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example96/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example97/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-example97/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-input-directive/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-input-directive/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-location-hashbang-mode/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-location-hashbang-mode/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-location-html5-mode/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-location-html5-mode/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-multi-bootstrap/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-multi-bootstrap/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-ngChange-directive/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-ngChange-directive/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-ngController/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-ngController/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-ngControllerAs/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-ngControllerAs/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-ngList-directive/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-ngList-directive/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-ngValue-directive/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-ngValue-directive/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-ngView-directive/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-ngView-directive/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-number-input-directive/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-number-input-directive/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-radio-input-directive/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-radio-input-directive/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-text-input-directive/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-text-input-directive/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-url-input-directive/default_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-url-input-directive/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/js/docs.js" afterPath="$PROJECT_DIR$/angularLib/docs/js/docs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-$route-service/jquery_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-$route-service/jquery_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-location-hashbang-mode/jquery_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-location-hashbang-mode/jquery_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-ngChange-directive/jquery_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-ngChange-directive/jquery_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-ngView-directive/jquery_test.js" afterPath="$PROJECT_DIR$/angularLib/docs/ptore2e/example-ngView-directive/jquery_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/components/google-code-prettify-1.0.1/src/prettify.js" afterPath="$PROJECT_DIR$/angularLib/docs/components/google-code-prettify-1.0.1/src/prettify.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/examples/example-$route-service/protractor.js" afterPath="$PROJECT_DIR$/angularLib/docs/examples/example-$route-service/protractor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/examples/example-location-hashbang-mode/protractor.js" afterPath="$PROJECT_DIR$/angularLib/docs/examples/example-location-hashbang-mode/protractor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/examples/example-ngChange-directive/protractor.js" afterPath="$PROJECT_DIR$/angularLib/docs/examples/example-ngChange-directive/protractor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/examples/example-ngView-directive/protractor.js" afterPath="$PROJECT_DIR$/angularLib/docs/examples/example-ngView-directive/protractor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularLib/docs/examples/example-example30/script.js" afterPath="$PROJECT_DIR$/angularLib/docs/examples/example-example30/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MyFirstDemoProject.iws" />
@@ -29,10 +138,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/view/index.html">
+        <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26842105" vertical-offset="0" max-vertical-offset="760">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.33552632" vertical-offset="51" max-vertical-offset="969">
+              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -41,8 +150,28 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="View1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Partials/View1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="442">
+              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="View2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Partials/View2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="272">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -57,8 +186,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/view1/view1.html" />
-        <option value="$PROJECT_DIR$/app/app.js" />
         <option value="$PROJECT_DIR$/app/view/index.html" />
+        <option value="$PROJECT_DIR$/app/view/View2.html" />
+        <option value="$PROJECT_DIR$/app/view/View1.html" />
+        <option value="$PROJECT_DIR$/app/Partials/View2.html" />
+        <option value="$PROJECT_DIR$/app/app.js" />
+        <option value="$PROJECT_DIR$/app/Partials/View1.html" />
+        <option value="$PROJECT_DIR$/app/index.html" />
       </list>
     </option>
   </component>
@@ -66,8 +200,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="753" />
-    <option name="y" value="30" />
+    <option name="x" value="818" />
+    <option name="y" value="20" />
     <option name="width" value="1097" />
     <option name="height" value="935" />
   </component>
@@ -94,7 +228,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -113,40 +246,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyFirstDemoProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyFirstDemoProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyFirstDemoProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyFirstDemoProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -157,6 +259,13 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Roaming/npm/node_modules/karma/bin/karma" />
     <property name="FullScreen" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projects\AngularJS_Demo\MyFirstDemoProject\app" />
+      <recent name="C:\projects\AngularJS_Demo\MyFirstDemoProject\app\view" />
+    </key>
   </component>
   <component name="RunManager" selected="Node.js.Run tests">
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
@@ -192,26 +301,26 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="ToolWindowManager">
-    <frame x="753" y="30" width="1097" height="935" extended-state="0" />
+    <frame x="818" y="20" width="1097" height="935" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32769045" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14153561" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21461609" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32883435" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -237,7 +346,23 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/view/index.html">
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="153">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -253,7 +378,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/index.html">
+    <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -269,40 +394,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/version/interpolate-filter.js">
+    <entry file="file://$PROJECT_DIR$/app/Partials/View2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="787">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/angular.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3723">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="272">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/index.html">
+    <entry file="file://$PROJECT_DIR$/app/Partials/View1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26842105" vertical-offset="0" max-vertical-offset="760">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="442">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angularLib/angular-route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21276596" vertical-offset="0" max-vertical-offset="15759">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33552632" vertical-offset="51" max-vertical-offset="969">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
           <folding />
         </state>
       </provider>

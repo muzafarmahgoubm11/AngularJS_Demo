@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("examples/example-ngControllerAs/index.html");
+    browser.get("examples/example-ngControllerAs/View1.html");
   });
   
   it('should check controller as', function() {

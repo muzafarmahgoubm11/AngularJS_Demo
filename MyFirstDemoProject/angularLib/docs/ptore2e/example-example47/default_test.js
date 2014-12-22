@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("examples/example-example47/index.html");
+    browser.get("examples/example-example47/View1.html");
   });
   
   it('should select Greetings!', function() {
