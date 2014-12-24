@@ -16,7 +16,7 @@
 
     <script>
         var demoApp = angular.module('demoApp', ['ngRoute']);
-        
+
         demoApp.config(function ($routeProvider) {
             $routeProvider
                     .when('/view1',
@@ -32,12 +32,25 @@
                     .otherwise({redirectTo:'/view1'});
         });
 
-        demoApp.controller('SimpleController', function ($scope) {
-            $scope.customers = [
-                {name: 'Muzafar Test1', city: 'London'},
-                {name: 'Salah Test2', city: 'Khartoum'},
-                {name: 'Mahgoub Test3', city: 'Heaven'}
-            ];
+        demoApp.factory('simpleFactory', function () {
+            var customers = [
+                                {name: 'Muzafar Test1', city: 'London'},
+                                {name: 'Salah Test2', city: 'Khartoum'},
+                                {name: 'Mahgoub Test3', city: 'Heaven'}
+                            ];
+
+            var factory = {};
+            factory.getCustomers = function(){return customers;}
+
+            return factory;
+        })
+
+        demoApp.controller('SimpleController', function ($scope, simpleFactory) {
+            $scope.customers = [];
+            init();
+            function init() {
+                $scope.customers = simpleFactory.getCustomers();
+            }
 
             $scope.addCustomer = function () {
                 $scope.customers.push({
